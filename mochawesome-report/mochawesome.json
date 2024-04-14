@@ -1,0 +1,461 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 15,
+    "passes": 12,
+    "pending": 0,
+    "failures": 3,
+    "start": "2024-04-14T04:44:45.013Z",
+    "end": "2024-04-14T04:44:45.133Z",
+    "duration": 120,
+    "testsRegistered": 15,
+    "passPercent": 80,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "916f17e3-a418-47b0-95b0-a0459d23c1cd",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d3cd33a-53d0-4a67-9aca-308bd34d473d",
+          "title": "Test Suite 1",
+          "fullFile": "tests/test1.js",
+          "file": "tests/test1.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check Login 1",
+              "fullTitle": "Test Suite 1 Check Login 1",
+              "timedOut": null,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Check Login Passed 1\")",
+              "err": {},
+              "uuid": "744973f3-4d89-4fb7-b5dd-c924a2e889ec",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check Home Page 1",
+              "fullTitle": "Test Suite 1 Check Home Page 1",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Home Page Passed 1\")",
+              "err": {},
+              "uuid": "6a584baa-8fdc-41ce-91a5-9aeace7aa575",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to Home Page 1",
+              "fullTitle": "Test Suite 1 Navigate to Home Page 1",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Navigate to Home Page Passed 1\")\nconsole.log(this.test.fullTitle())\nthrow Error('Test Failure 1')",
+              "err": {
+                "message": "Error: Test Failure 1",
+                "estack": "Error: Test Failure 1\n    at Context.<anonymous> (tests/test1.js:13:11)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "7876c9e9-cb8a-4066-bf06-08bb24f68d45",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "744973f3-4d89-4fb7-b5dd-c924a2e889ec",
+            "6a584baa-8fdc-41ce-91a5-9aeace7aa575"
+          ],
+          "failures": [
+            "7876c9e9-cb8a-4066-bf06-08bb24f68d45"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "bf516521-9f59-4b06-ae9f-60502b3fa34f",
+          "title": "Test Suite 2",
+          "fullFile": "tests/test2.js",
+          "file": "tests/test2.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check Login 2",
+              "fullTitle": "Test Suite 2 Check Login 2",
+              "timedOut": null,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Check Login Passed 2\")",
+              "err": {},
+              "uuid": "b65dfb52-926f-474e-bb5c-93ba78c011d2",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check Home Page 2",
+              "fullTitle": "Test Suite 2 Check Home Page 2",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Home Page Passed 2\")",
+              "err": {},
+              "uuid": "a7f4be5c-1f17-4d9d-b16f-717255027e5c",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to Home Page 2",
+              "fullTitle": "Test Suite 2 Navigate to Home Page 2",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Navigate to Home Page Passed 2\")\nconsole.log(this.test.fullTitle())\nthrow Error(\"Test Failure 2\")",
+              "err": {
+                "message": "Error: Test Failure 2",
+                "estack": "Error: Test Failure 2\n    at Context.<anonymous> (tests/test2.js:13:11)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "063186c0-fbce-4653-9ee5-20cc9e2ccf06",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b65dfb52-926f-474e-bb5c-93ba78c011d2",
+            "a7f4be5c-1f17-4d9d-b16f-717255027e5c"
+          ],
+          "failures": [
+            "063186c0-fbce-4653-9ee5-20cc9e2ccf06"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "e7af5e90-a7b8-44fa-a004-45afb1604410",
+          "title": "Test Suite 4",
+          "fullFile": "tests/test4.js",
+          "file": "tests/test4.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Homepage to Payment Test 4",
+              "fullTitle": "Test Suite 4 Homepage to Payment Test 4",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 4\")",
+              "err": {},
+              "uuid": "c54ab4bf-33bd-418a-aeb5-22337c843b0a",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Homepage to Payment Test 4",
+              "fullTitle": "Test Suite 4 Homepage to Payment Test 4",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 4\")",
+              "err": {},
+              "uuid": "b0709238-5866-437e-8258-e6b930f6739e",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Homepage to Payment Test 4",
+              "fullTitle": "Test Suite 4 Homepage to Payment Test 4",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 4\")",
+              "err": {},
+              "uuid": "98657531-c6e3-4346-9b2f-9c4aa34e2753",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c54ab4bf-33bd-418a-aeb5-22337c843b0a",
+            "b0709238-5866-437e-8258-e6b930f6739e",
+            "98657531-c6e3-4346-9b2f-9c4aa34e2753"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "f165d023-125e-4606-9dff-fa51a99c2158",
+          "title": "Test Suite 3",
+          "fullFile": "tests/test3.js",
+          "file": "tests/test3.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Check Login 3",
+              "fullTitle": "Test Suite 3 Check Login 3",
+              "timedOut": null,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Check Login Passed 3\")",
+              "err": {},
+              "uuid": "5b805125-af1e-427e-8025-8f9ea473ff43",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Check Home Page 3",
+              "fullTitle": "Test Suite 3 Check Home Page 3",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Home Page Passed 3\")",
+              "err": {},
+              "uuid": "9f01a698-577b-4eac-a7ba-8c4a6610ee61",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Navigate to Home Page 3",
+              "fullTitle": "Test Suite 3 Navigate to Home Page 3",
+              "timedOut": null,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Navigate to Home Page Passed 3\")\nconsole.log(this.test.fullTitle())\nthrow Error(\"Test Failure 3\")",
+              "err": {
+                "message": "Error: Test Failure 3",
+                "estack": "Error: Test Failure 3\n    at Context.<anonymous> (tests/test3.js:13:11)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "8e3af94e-0d1b-4da0-9d48-0ca31d93bb1b",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b805125-af1e-427e-8025-8f9ea473ff43",
+            "9f01a698-577b-4eac-a7ba-8c4a6610ee61"
+          ],
+          "failures": [
+            "8e3af94e-0d1b-4da0-9d48-0ca31d93bb1b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        },
+        {
+          "uuid": "5672f9f7-b6ff-4048-ae28-4ace69db0f21",
+          "title": "Test Suite 5",
+          "fullFile": "tests/test5.js",
+          "file": "tests/test5.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Homepage to Payment Test 5",
+              "fullTitle": "Test Suite 5 Homepage to Payment Test 5",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 5\")",
+              "err": {},
+              "uuid": "76232544-737b-4436-a3fe-6b1ff2e1386c",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Homepage to Payment Test 2",
+              "fullTitle": "Test Suite 5 Homepage to Payment Test 2",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 5\")",
+              "err": {},
+              "uuid": "26c81792-8ecd-4a76-ae65-ac31a6346074",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Homepage to Payment Test 3",
+              "fullTitle": "Test Suite 5 Homepage to Payment Test 3",
+              "timedOut": null,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test Payment Page Passed 5\")",
+              "err": {},
+              "uuid": "1464208f-3b91-4213-9480-5c3cd911d7be",
+              "parentUUID": null,
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "76232544-737b-4436-a3fe-6b1ff2e1386c",
+            "26c81792-8ecd-4a76-ae65-ac31a6346074",
+            "1464208f-3b91-4213-9480-5c3cd911d7be"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": null
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
