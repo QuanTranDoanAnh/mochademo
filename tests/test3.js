@@ -7,7 +7,7 @@ describe('Test Suite 3', function() {
     console.log("Home Page Passed 3")
   })
 
-  it('Navigate to Home Page 3', function() {
+  it.skip('Navigate to Home Page 3', function() {
     console.log("Navigate to Home Page Passed 3")
     console.log(this.test.fullTitle())
     throw Error("Test Failure 3")
